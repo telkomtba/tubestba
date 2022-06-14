@@ -238,6 +238,12 @@ with st.container():
     st.title("TUBES TBA")
     st.subheader("Lexical Analyzer dan Parser Sederhana untuk Teks Bahasa Alami")
 
+with st.container():
+    st.write("---")
+    st.subheader("Anggota Kelompok : ")
+    st.subheader("-")
+    st.subheader("-")
+    st.subheader("-")
 
 with st.container():
     st.write("---")
