@@ -71,7 +71,7 @@ def LexicalAnalyzer(kata):
     transition_table[('q0','m')] = 'q9'
     transition_table[('q9','u')] = 'q10'
     transition_table[('q10','m')] = 'q11'
-    transition_table[('q11','b')] = 'q8'
+    transition_table[('q11','b')] = 'q12'
     transition_table[('q12','a')] = 'q15'
     transition_table[('q15','c')] = 'q16'
     transition_table[('q16','u')] = 'q33'
@@ -113,7 +113,7 @@ def LexicalAnalyzer(kata):
         except:
             state = None
 
-        if state == 'q44':
+        if state == 'q33':
             current_token = ''
         elif state == None:
             break
@@ -241,9 +241,9 @@ with st.container():
 with st.container():
     st.write("---")
     st.subheader("Anggota Kelompok : ")
-    st.subheader("-")
-    st.subheader("-")
-    st.subheader("-")
+    st.subheader("Herman Gemilang (1301204014)")
+    st.subheader("Ihsani Hawa Arsytania (1301204105)")
+    st.subheader("Muhammad Raffif Haziq (1301204146)")
 
 with st.container():
     st.write("---")
@@ -258,13 +258,13 @@ with st.container():
     st.write("---")
 with st.container():
 
-    st.write("Subjek (NN) : Abah, Omak, Uwak")
+    st.write("Subjek (NN) : abah, omak, uwak")
     st.write("---")
 
-    st.write("Verb (VB) : Mumasak, Mumboli, Mumbacu, Menjua")    
+    st.write("Verb (VB) : mumasak, mumboli, mumbacu, menjua")    
     st.write("---")
             
-    st.write("Object (NN) : Buku, Pensel, Pemadam")
+    st.write("Object (NN) : buku, pensel, pemadam")
 
     st.write("---")
 #
