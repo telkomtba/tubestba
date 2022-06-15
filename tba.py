@@ -240,7 +240,7 @@ with st.container():
 
 with st.container():
     st.write("---")
-    st.subheader("Anggota Kelompok : ")
+    st.header("Anggota Kelompok : ")
     st.subheader("Herman Gemilang (1301204014)")
     st.subheader("Ihsani Hawa Arsytania (1301204105)")
     st.subheader("Muhammad Raffif Haziq (1301204146)")
